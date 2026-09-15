@@ -1,0 +1,25 @@
+# Compilados de Java
+*.class
+*.jar
+bin/
+out/
+target/
+
+# IDE y editores
+.idea/
+*.iml
+.vscode/
+*.swp
+*~
+.DS_Store
+
+# Archivos de resultados locales
+resultados/*.csv
+!resultados/resultados_ejemplo.csv
+!resultados/.gitkeep
+
+# Datasets generados pesados (los datasets pequeños de prueba están en datasets/)
+datasets/*.txt
+!datasets/dataset_test_5_3.txt
+!datasets/dataset_test_100_3.txt
+!datasets/.gitkeep
